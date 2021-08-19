@@ -47,9 +47,9 @@
   <remote name="ku-sldg" fetch="https://github.com/ku-sldg"/>
   <remote name="gjurgensen" fetch="https://github.com/gjurgensen"/>
 
-  <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" revision="master">
+  <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="gjurgensen" revision="master">
     <linkfile src="." dest="attarch"/>
     <linkfile src="README.md" dest="README.md"/>
   </project>
-  <project name="am-cakeml" path="projects/vm-examples/apps/Arm/attarch/am-cakeml"/>
+  <project name="am-cakeml" path="projects/vm-examples/apps/Arm/attarch/am-cakeml" remote="ku-sldg" revision="attarch-dev"/>
 </manifest>
