@@ -43,10 +43,9 @@
   <!-- Above is the manifest for vm-examples. Below are my additions -->
 
   <remote name="ku-sldg" fetch="https://github.com/ku-sldg"/>
-  <remote name="gjurgensen" fetch="https://github.com/gjurgensen"/>
   <remote name="everest" fetch="https://github.com/project-everest"/>
 
-  <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="gjurgensen" revision="master">
+  <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="ku-sldg" revision="main">
     <linkfile src="." dest="attarch"/>
     <linkfile src="README.md" dest="README.md"/>
   </project>
