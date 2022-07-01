@@ -46,13 +46,15 @@
 
   <!-- Above is the manifest for vm-examples as of 27 June 2022. Below are the additions for the attarch project -->
 
-  <remote name="ku-sldg" fetch="https://github.com/ku-sldg"/>
-  <remote name="everest" fetch="https://github.com/project-everest"/>
+  <remote name="ku-sldg"        fetch="https://github.com/ku-sldg"/>
+  <remote name="everest"        fetch="https://github.com/project-everest"/>
+  <remote name="linux-stable"   fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable"/>
 
   <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="ku-sldg" revision="main">
     <linkfile src="." dest="attarch"/>
     <linkfile src="README.md" dest="README.md"/>
   </project>
-  <project name="am-cakeml" path="projects/vm-examples/apps/Arm/attarch/am-cakeml" remote="ku-sldg" revision="attarch-dev"/>
-  <project name="hacl-star" path="projects/vm-examples/apps/Arm/attarch/hacl-star" remote="everest" revision="50db8e4147258a5dc8e18c940c1b045ce5558723" upstream="master"/>
+  <project name="am-cakeml" path="projects/vm-examples/apps/Arm/attarch/am-cakeml" remote="ku-sldg"      revision="attarch-dev"/>
+  <project name="hacl-star" path="projects/vm-examples/apps/Arm/attarch/hacl-star" remote="everest"      revision="50db8e4147258a5dc8e18c940c1b045ce5558723" upstream="master"/>
+  <project name="linux"     path="projects/vm-examples/apps/Arm/attarch/linux"     remote="linux-stable" revision="4ffa4be5a14beeb008bd2b4fbc681222bfec90c7" upstream="linux-4.9.y"/>
 </manifest>
