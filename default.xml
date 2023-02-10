@@ -55,6 +55,6 @@
     <linkfile src="README.md" dest="README.md"/>
   </project>
   <project name="am-cakeml" path="projects/vm-examples/apps/Arm/attarch/am-cakeml" remote="ku-sldg"      revision="attarch-measurement-integration"/>
-  <project name="hacl-star" path="projects/vm-examples/apps/Arm/attarch/hacl-star" remote="everest"      revision="50db8e4147258a5dc8e18c940c1b045ce5558723" upstream="master"/>
+  <project name="hacl-star" path="projects/vm-examples/apps/Arm/attarch/hacl-star" remote="everest"      revision="50db8e4147258a5dc8e18c940c1b045ce5558723" upstream="main"/>
   <project name="linux"     path="projects/vm-examples/apps/Arm/attarch/linux"     remote="linux-stable" revision="1e6730483a6edd8f31becef8df0d0f9e2b258ae3" upstream="linux-4.9.y"/>
 </manifest>
