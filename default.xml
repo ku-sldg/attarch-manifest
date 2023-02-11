@@ -47,7 +47,6 @@
   <!-- Above is the manifest for vm-examples as of 27 June 2022. Below are the additions for the attarch project -->
 
   <remote name="ku-sldg"        fetch="https://github.com/ku-sldg"/>
-  <remote name="everest"        fetch="https://github.com/project-everest"/>
   <remote name="linux-stable"   fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable"/>
 
   <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="ku-sldg" revision="measurement_integration">
@@ -55,6 +54,5 @@
     <linkfile src="README.md" dest="README.md"/>
   </project>
   <project name="am-cakeml" path="projects/vm-examples/apps/Arm/attarch/am-cakeml" remote="ku-sldg"      revision="attarch-measurement-integration"/>
-  <project name="hacl-star" path="projects/vm-examples/apps/Arm/attarch/hacl-star" remote="everest"      revision="50db8e4147258a5dc8e18c940c1b045ce5558723" upstream="main"/>
   <project name="linux"     path="projects/vm-examples/apps/Arm/attarch/linux"     remote="linux-stable" revision="1e6730483a6edd8f31becef8df0d0f9e2b258ae3" upstream="linux-4.9.y"/>
 </manifest>
