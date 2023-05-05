@@ -49,7 +49,7 @@
   <remote name="ku-sldg"        fetch="https://github.com/ku-sldg"/>
   <remote name="linux-stable"   fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable"/>
 
-  <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="ku-sldg" revision="measurement_integration">
+  <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="ku-sldg" revision="introspect_rebase">
     <linkfile src="." dest="attarch"/>
     <linkfile src="README.md" dest="README.md"/>
   </project>
