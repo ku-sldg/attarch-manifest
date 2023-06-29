@@ -47,8 +47,6 @@
   <remote name="kernel" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable"/>
   <remote name="sldg" fetch="https://github.com/ku-sldg"/>
 
-  <default revision="master"/>
-
   <project name="linux-stable" path="linux-kernels/4.9.y" remote="kernel" revision="linux-4.9.y"/>
   <project name="linux-stable" path="linux-kernels/4.14.y" remote="kernel" revision="linux-4.14.y"/>
   <project name="linux-stable" path="linux-kernels/4.19.y" remote="kernel" revision="linux-4.19.y"/>
