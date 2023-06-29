@@ -45,7 +45,6 @@
   <!-- Above is the manifest for vm-examples as of 29 June 2023. Below are the additions for the vm introspection / attestation project -->
   
   <remote name="kernel" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable"/>
-  <remote name="seL4" fetch="https://github.com/seL4"/>
   <remote name="sldg" fetch="https://github.com/ku-sldg"/>
 
   <default revision="master"/>
