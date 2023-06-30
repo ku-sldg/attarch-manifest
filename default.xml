@@ -67,9 +67,5 @@
   <project name="attarch" path="attarch/5.10.y" remote="sldg" revision="linux-5.10.y"/>
   <project name="attarch" path="attarch/5.15.y" remote="sldg" revision="linux-5.15.y"/>
   <project name="attarch" path="attarch/6.1.y" remote="sldg" revision="linux-6.1.y"/>
-
-  <project name="hooks" path="attarch/4.9.y/scripts" remote="sldg" revision="linux-4.9.y">
-    <copyfile src="post-sync.py" dest=".repo/hooks/post-sync"/>
-  </project>
      
 </manifest>
