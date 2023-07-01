@@ -68,7 +68,4 @@
   <project name="attarch" path="attarch/5.15.y" remote="sldg" revision="linux-5.15.y"/>
   <project name="attarch" path="attarch/6.1.y" remote="sldg" revision="linux-6.1.y"/>
 
-  <remote name="NeisesResearch" fetch="https://github.com/NeisesResearch"/>
-  <project name="attarch_scripts.git" path="tools/attarch" remote="NeisesResearch" revision="master"/>
-
 </manifest>
