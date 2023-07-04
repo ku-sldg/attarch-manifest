@@ -46,7 +46,7 @@
   <!-- Above is the manifest for vm-examples as of 29 June 2023. Below are the additions for the vm introspection / attestation project -->
   
   <remote name="kernel" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable"/>
-  <remote name="sldg" fetch="git@github.com:ku-sldg"/>
+  <remote name="sldg" fetch="https://github.com/ku-sldg"/>
 
   <project name="linux-stable" path="linux-kernels/4.9.y" remote="kernel" revision="linux-4.9.y"/>
   <project name="linux-stable" path="linux-kernels/4.14.y" remote="kernel" revision="linux-4.14.y"/>
