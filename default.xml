@@ -48,14 +48,6 @@
   <remote name="kernel" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable"/>
   <remote name="sldg" fetch="https://github.com/ku-sldg"/>
 
-  <project name="linux-stable" path="linux-kernels/4.9.y" remote="kernel" revision="linux-4.9.y"/>
-  <project name="linux-stable" path="linux-kernels/4.14.y" remote="kernel" revision="linux-4.14.y"/>
-  <project name="linux-stable" path="linux-kernels/4.19.y" remote="kernel" revision="linux-4.19.y"/>
-  <project name="linux-stable" path="linux-kernels/5.4.y" remote="kernel" revision="linux-5.4.y"/>
-  <project name="linux-stable" path="linux-kernels/5.10.y" remote="kernel" revision="linux-5.10.y"/>
-  <project name="linux-stable" path="linux-kernels/5.15.y" remote="kernel" revision="linux-5.15.y"/>
-  <project name="linux-stable" path="linux-kernels/6.1.y" remote="kernel" revision="linux-6.1.y"/>
-
   <project name="seL4-CAmkES-L4v-dockerfiles.git" path="seL4-CAmkES-L4v-dockerfiles" remote="seL4" revision="master"/>
 
   <project name="am-cakeml" path="am-cakeml" remote="sldg" revision="attarch-measurement-integration"/>
