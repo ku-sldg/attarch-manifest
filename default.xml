@@ -50,14 +50,11 @@
 
   <project name="seL4-CAmkES-L4v-dockerfiles.git" path="seL4-CAmkES-L4v-dockerfiles" remote="seL4" revision="master"/>
 
-  <project name="am-cakeml" path="am-cakeml" remote="sldg" revision="attarch-measurement-integration"/>
+  <remote name="ku-sldg"        fetch="https://github.com/ku-sldg"/>
 
-  <project name="attarch" path="attarch/4.9.y" remote="sldg" revision="linux-4.9.y"/>
-  <project name="attarch" path="attarch/4.14.y" remote="sldg" revision="linux-4.14.y"/>
-  <project name="attarch" path="attarch/4.19.y" remote="sldg" revision="linux-4.19.y"/>
-  <project name="attarch" path="attarch/5.4.y" remote="sldg" revision="linux-5.4.y"/>
-  <project name="attarch" path="attarch/5.10.y" remote="sldg" revision="linux-5.10.y"/>
-  <project name="attarch" path="attarch/5.15.y" remote="sldg" revision="linux-5.15.y"/>
-  <project name="attarch" path="attarch/6.1.y" remote="sldg" revision="linux-6.1.y"/>
-
+  <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="ku-sldg" revision="main">
+    <linkfile src="." dest="attarch"/>
+    <linkfile src="README.md" dest="README.md"/>
+  </project>
+  <project name="am-cakeml" path="projects/vm-examples/apps/Arm/attarch/am-cakeml" remote="ku-sldg"      revision="attarch-measurement-integration"/>
 </manifest>
