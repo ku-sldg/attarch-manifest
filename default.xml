@@ -55,6 +55,10 @@
   <project name="attarch" path="projects/vm-examples/apps/Arm/attarch" remote="ku-sldg" revision="main">
     <linkfile src="." dest="attarch"/>
     <linkfile src="README.md" dest="README.md"/>
+    <linkfile src="build_scripts/dockerfiles.sh" dest="dockerfiles.sh"/>
+    <linkfile src="build_scripts/startDocker.sh" dest="startDocker.sh"/>
+    <linkfile src="build_scripts/linux.sh" dest="linux.sh"/>
+    <linkfile src="build_scripts/ScrapeSystemMap.py.sh" dest="ScrapeSystemMap.py"/>
   </project>
   <project name="am-cakeml" path="projects/vm-examples/apps/Arm/attarch/am-cakeml" remote="ku-sldg"      revision="attarch-measurement-integration"/>
 </manifest>
