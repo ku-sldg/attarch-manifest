@@ -1,11 +1,15 @@
 ## Prerequisites
 
-You will need to install Google's `repo` tool
+* make
+* curl
+* git 
+* [repo tool](https://android.googlesource.com/tools/repo)
+* [docker engine](https://docs.docker.com/engine/install/)
 
 ## Checking out the project
 
 ```sh
-repo init -u https://github.com/ku-sldg/attarch-manifest.git -b main
+repo init -u https://github.com/ku-sldg/attarch-manifest.git
 repo sync
 ```
 
