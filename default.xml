@@ -17,7 +17,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="dcc5193bfa496e175ea3dc4c69caec04ce21a170" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="camkes_README.md"/>
   </project>
-  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="63fc01515b6477e2cb853a498cb5b046850b70db" upstream="master" dest-branch="master">
+  <project name="camkes-vm-examples.git" path="projects/vm-examples" revision="977022b13b93c1eb36f399db63abbe6e0157e7f9" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="camkes-vm-images.git" path="projects/camkes-vm-images" revision="69af5316aa39d43d38070984338b334083d2065d" upstream="master" dest-branch="master"/>
