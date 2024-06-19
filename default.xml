@@ -48,7 +48,7 @@
   <remote name="kernel" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/stable"/>
   <remote name="sldg" fetch="https://github.com/ku-sldg"/>
 
-  <project name="seL4-CAmkES-L4v-dockerfiles.git" path="seL4-CAmkES-L4v-dockerfiles" remote="seL4" revision="master"/>
+  <project name="seL4-CAmkES-L4v-dockerfiles.git" path="seL4-CAmkES-L4v-dockerfiles" remote="seL4" revision="34c9d4ae701a52d096d5ea6af68217f7f30c4f16"/>
 
   <remote name="ku-sldg"        fetch="https://github.com/ku-sldg"/>
 
